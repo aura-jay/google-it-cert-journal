@@ -15,12 +15,34 @@ This repository tracks my progress through the [Google IT Support Certificate on
 - [Key Takeaways] : Logic gates represent different rules for taking one or more binary inputs and outputting a specific binary value (“on” or “off”).
 - Logic gates can be linked so that the output of one gate serves as the input for other gates.
 - Circuits are complex electrical systems built by linking logic gates together. Computers are this kind of complex electrical system.
+-
+  - [x] Week 2: Hardware
+       - [Key Takeaways] : Understanding the various levels of CPU cache is essential for optimizing performance and making informed decisions in high-performance server configurations.
+       - The process of overclocking CPUs can significantly enhance processing speeds, which is a valuable skill for IT support professionals.
+       - The number and power consumption needs of the computer’s internal components
+       - The motherboard model and form factor engineering specifications and requirements.
+       - The two main technologies used in mobile displays are Liquid Crystal Display (LCD) and Organic Light Emitting Diodes (OLED). Each technology has its own benefits and drawbacks when used in mobile device displays, among other consumer goods. 
+Common LCDs include:
+In-Plane Switching (IPS) displays, Twisted Nematic (TN) displays , VA-Vertical Alignment displays, Common and upcoming OLED displays include, Active Matrix Organic Light Emitting Diode (AMOLED) displays, Inorganic mini-LEDs (mLEDs) displays, Inorganic micro-LEDs (μLEDs) displays
+  
+  
+  - [x] Week 3: Operating Systems and Netowrking
+      - [Key Takeaways] : In this lesson we go over installing Operating Systmes such as Chrome, Mac OS, and Linux. Starting to use Quicklabs VM to emulate windows desktop and Linux.
+      - Mkdir Super-Secret-Folder would be the correct way to create a folder in Linux.
+      - Data is written to the hard drive in Data Blocks.
+      - OS that interacts with a systems hard ware is The kernal.
+      - Key Glossary terms: Domain Name System (DNS): A global and highly distributed network service that resolves strings of letters, such as a website name, into an IP address.
+      -  Network Address Translation (NAT): A mitigation tool that lets organizations use one public IP address and many private IP addresses within the network.
+      Transmisson Control Protocol (TCP): A protocol that handles reliable delivery of information from one network to another.
+
+  [x] Week 4: Software
+      - A basic knowledge of scripting is an important tool for IT professionals. You may need to improve workflow efficiency by automating basic functions with a scripting language. Some common scripting languages include: Windows environments: batch scripts (.bat), Powershell (.ps1), Visual Basic Script (.vbs)
+Linux/Unix environments: shell scripts (.sh)
+Most OS environments: javascript (.js), Python (.py)
+Scripts have multiple helpful uses, such as: Basic Automation Restarting Machines Remapping Network Drives Installing Applications Automating Backups. Gathering of information/ data Initiating Updates. There are risks in using scripts, including: Unintentionally introducing malware, Inadvertently changing system settings. Browser or system crashes due to mishandling of resources.
+ - The apt command is used to do installs of software packages.
+-  Adding sudo before the apt command tells Linux you are authorized to install software.
 - 
-
-
-- [ ] Week 2: Networking
-- [ ] Week 3: Operating Systems
-- [ ] Week 4: System Administration
 - [ ] Week 5: IT Infrastructure
 - [ ] Week 6: IT Security: Defense Against the Digital Dark Arts 
 
