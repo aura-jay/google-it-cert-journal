@@ -42,6 +42,17 @@ Most OS environments: javascript (.js), Python (.py)
 Scripts have multiple helpful uses, such as: Basic Automation Restarting Machines Remapping Network Drives Installing Applications Automating Backups. Gathering of information/ data Initiating Updates. There are risks in using scripts, including: Unintentionally introducing malware, Inadvertently changing system settings. Browser or system crashes due to mishandling of resources.
  - The apt command is used to do installs of software packages.
 -  Adding sudo before the apt command tells Linux you are authorized to install software.
+-  To quickly check if a program is installed on Linux, you can use the command dpkg -s followed by the unique package name for that program. The -s flag in dpkg stands for "status," and can also be written as --status. This flag allows you to verify if a program is installed on your machine. For example, we know that Firefox isn't currently installed, but GIMP is. Running dpkg -s firefox-esr shows this output: dpkg -s firefox-esr
+-  output: dpkg-query: package 'firefox-esr' is not installed and no information is available
+Use dpkg --info (= dpkg-deb --info) to examine archive files. this shows you that Firefox isn't currently installed on the system. To check GIMP, modify the earlier command and enter dpkg -s gimp to see the output below. (Note that only part of the output is shown.) dpkg -s gimp
+Update VLC media player
+VLC media player is already installed on your computer, but the version that's installed is out of date. You'll fix that now by updating it to the newest version. To do that, force an update of the package manager, using this command: sudo apt-get install -f
+This kicks off the update process. It will print out lots of text to your terminal, and ask you if you'd like to continue. Enter y for "yes". When the process is finished, type dpkg -s vlc again to verify the installation. : dpkg -s vlc
+
+
+
+
+
 - 
 - [ ] Week 5: IT Infrastructure
 - [ ] Week 6: IT Security: Defense Against the Digital Dark Arts 
