@@ -35,7 +35,15 @@ In-Plane Switching (IPS) displays, Twisted Nematic (TN) displays , VA-Vertical A
       -  Network Address Translation (NAT): A mitigation tool that lets organizations use one public IP address and many private IP addresses within the network.
       Transmisson Control Protocol (TCP): A protocol that handles reliable delivery of information from one network to another.
 
-  [x] Week 4: Software
+
+        Networking In Depth:
+       - the data link layer is responsible for defining a common way of interpreting these signals so network devices can communicate. Lots of protocols exist at the data link layer, but the most common is known as Ethernet.
+       - 
+
+
+      
+   
+   [x] Week 4: Software
       - A basic knowledge of scripting is an important tool for IT professionals. You may need to improve workflow efficiency by automating basic functions with a scripting language. Some common scripting languages include: Windows environments: batch scripts (.bat), Powershell (.ps1), Visual Basic Script (.vbs)
 Linux/Unix environments: shell scripts (.sh)
 Most OS environments: javascript (.js), Python (.py)
@@ -53,7 +61,7 @@ This kicks off the update process. It will print out lots of text to your termin
 
 
 
-- 
+  
 - [ ] Week 5: IT Infrastructure
 - [ ] Week 6: IT Security: Defense Against the Digital Dark Arts 
 
