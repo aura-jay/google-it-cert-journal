@@ -56,13 +56,11 @@ Use dpkg --info (= dpkg-deb --info) to examine archive files. this shows you tha
 Update VLC media player
 VLC media player is already installed on your computer, but the version that's installed is out of date. You'll fix that now by updating it to the newest version. To do that, force an update of the package manager, using this command: sudo apt-get install -f
 This kicks off the update process. It will print out lots of text to your terminal, and ask you if you'd like to continue. Enter y for "yes". When the process is finished, type dpkg -s vlc again to verify the installation. : dpkg -s vlc
+ 
+- [ ] Week 5: IT Infrastructure: TCP/IP: Transmission Internet Protocal:
+      
 
-
-
-
-
-  
-- [ ] Week 5: IT Infrastructure
+- [ ] 
 - [ ] Week 6: IT Security: Defense Against the Digital Dark Arts 
 
 ## 📁 Directory Structure
